@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">IT(ScrollView)</string>
+    <string name="textview">基本元件介紹-TextView 接下來會開始接紹android studio一些基本的元件，這些元件雖然看似簡單不過也有不少屬性可以設定，這些元件也將在未來不管大大小小的專案中不斷出現，所以盡可能練習用到得心應手，對未來寫程式也會順利不少。
+        首先介紹幾個基本的屬性設定:
+        android:text=""; 負責設定顯示的文字
+        android:textSize=""; 負責設定文字大小,使用的單位是sp
+        在textSize的設定上對單位有特別的限制，若單位不是用sp而是用dp，雖然在畫面上不會有甚麼差異，不過使用dp設定的話會產生字體不回隨這設定放大縮小。
+        android:textColor="";負責設定文字的顏色
+        android:background="";負責設定背景顏色
+        顏色的設定可以選擇輸入色碼，網路上也有許多色碼表可以參考。或著是打開res/value/color.xml 的檔案先對顏色設定，好方便之後直接使用。
+    </string>
+    <string name="edittext">這篇要介紹的是Editview，是個能與使用者有互動的一個元件，也開始讓我們的程式稍微有點層次了，其實Editview和前一篇的Textview有許多相同的屬性，包括設定自的大小顏色等。不過接下來要介紹的是一些屬於Editview的屬性設定。
+        首先是android:inputType=””這個屬性的值決定了輸入著的鍵盤及對文字的一些規則，假如android:inputType=”number”，那輸入者的鍵盤就會為數字鍵，或著android:inputType=” textPassword”那輸出的值就會被*取代顯示。以下有幾個較為常見的屬性設定，可以依自己的需求對Editview進行設定及調整。
+        android:inputType=”none” (無)
+        android:inputType=”text” (任何字元)
+        android:inputType=”textEmailAddress” (電子郵件)
+        android:inputType=”textPersonName” (人名)
+        android:inputType=”textPostalAddress” (地址)
+        android:inputType=”textPassword” (密碼)
+        android:inputType=”textVisiblePassword” (可見密碼)
+        android:inputType=”number” (數字)
+        android:inputType=”numberSigned” (帶符號數字格式)
+        android:inputType=”numberDecimal” (含有小數點的浮點格式)
+        android:inputType=”phone” (電話鍵盤)
+        android:inputType=”datetime” (時間日期鍵盤)
+        android:inputType=”date” (日期鍵盤)
+        android:inputType=”time” (時間鍵盤)
+        還有個很常使用的屬性
+        android:hint=””
+        其功能類似於Android:text=””不過hint是在還未輸入值時所顯示在Editview欄位上的文字，功能有如提示一般。
+        android:maxLength=””用來限制輸入的字串長度
+        android:ems=””用來限制顯示長度，如果沒有設定Editview的大小可能因為輸入長度而跑掉
+    </string>
+
+</resources>

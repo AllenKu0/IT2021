@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".beacon.BeaconReceiveActivity">
+    <item
+        android:id="@+id/search_button"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:orderInCategory="100"
+        android:title="搜尋"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/scan_button"
+        android:icon="@drawable/ic_baseline_scanner_24"
+        android:orderInCategory="100"
+        android:title="掃描"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/setting_button"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:orderInCategory="100"
+        android:title="設定"
+        app:showAsAction="ifRoom" />
+</menu>

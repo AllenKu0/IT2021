@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Allen/AndroidStudioProjects/IT2021/ITspinner/app/src/main/res/layout/activity_main.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/Allen/AndroidStudioProjects/ITspinner/app/src/main/res/drawable/spinner_back.xml" value="0.26979166666666665" />
+        <entry key="..\:/Users/Allen/AndroidStudioProjects/ITspinner/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/Users/Allen/AppData/Local/Android/Sdk/platforms/android-30/data/res/layout/simple_dropdown_item_1line.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

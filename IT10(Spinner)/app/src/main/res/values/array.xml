@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="station">
+        <item>南港</item>
+        <item>台北</item>
+        <item>板橋</item>
+        <item>新竹</item>
+        <item>苗栗</item>
+        <item>台中</item>
+        <item>彰化</item>
+        <item>雲林</item>
+        <item>嘉義</item>
+        <item>台南</item>
+        <item>左營</item>
+    </string-array>
+</resources>
